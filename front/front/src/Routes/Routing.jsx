@@ -5,7 +5,7 @@ function Routing(){
 return(
 <Router>
     <Routes>
-        <Route path='/nombre' element={<Tienda/>}/>
+        <Route path='/' element={<Tienda/>}/>
 
     </Routes>
 

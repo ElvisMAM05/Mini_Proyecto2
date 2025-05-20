@@ -2,6 +2,8 @@ from django.db import models
 
 # Create your models here.
 class NombreModelo(models.Model):
-    atributos = models.CharField(max_length=10)
-    fechita = models.DateField(auto_now_add=True)
+    Nombre = models.CharField(max_length=10)
+    fecha = models.DateField(auto_now_add=True)
+    precio= models.IntegerField()
+    stock= models.IntegerField()
     

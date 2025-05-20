@@ -6,7 +6,7 @@ async function postData(obj,endpoint) {
         },
         body: JSON.stringify(obj)        
     })
-    const res = peticion.json()
+    const res = await peticion.json()
     return res
 }
 export {postData}

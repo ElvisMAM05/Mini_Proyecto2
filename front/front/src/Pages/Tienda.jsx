@@ -1,10 +1,11 @@
 import React from 'react'
+import { Producto } from '../Components/Producto'
 
 const Tienda = ()=>{
     return(
         <>
-            <h1>a</h1>
+        <Producto/>
         </>
     )
 }
-export default Tienda
+export default Tienda       
